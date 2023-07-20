@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import Features from '@/components/Features';
 import MagneticButton from '@/components/MagneticButton'
+import UpcomingFeatures from '@/components/UpcomingFeatures';
 
 export default function Home() {
   return (
@@ -17,7 +18,7 @@ export default function Home() {
         </div>
 
         <Features />
-
+        <UpcomingFeatures />
       </div>
   )
 

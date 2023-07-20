@@ -13,23 +13,23 @@ const Features = () => {
 
     const headingOpacity = useTransform(
         scrollYProgress,
-        [0 , 0.15, 0.2 , 1],
-        [0 , 0 , 1 , 1]
+        [0 , 0.15, 0.2 , 0.75, 0.8],
+        [0 , 0 , 1 , 1, 0]
     )
     const feature1 = useTransform(
         scrollYProgress,
-        [0 , 0.4, 0.45],
+        [0 , 0.34, 0.37],
         [0 , 1 , 0 ]
     )
     const feature2 = useTransform(
         scrollYProgress,
-        [0 , 0.45, 0.7, 0.75 ],
+        [0 , 0.45, 0.55, 0.6 ],
         [0 , 1 , 1, 0 ]
     )
     const feature3 = useTransform(
         scrollYProgress,
-        [0 , 0.45, 0.55 ],
-        [0 , 1 , 1 ]
+        [0 , 0.45, 0.55,  0.75, 0.8],
+        [0 , 1 , 1, 1, 0 ]
     )
 
   return (
